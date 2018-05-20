@@ -426,7 +426,7 @@ button {
 .instagram-feed-rss {
   display: block;
   position: absolute;
-  width: 25%;
+  width: 20%;
   top: 450px;
   left: 5%;
 }
@@ -444,8 +444,8 @@ button {
   list-style-type: none;
   transform: scale(1.2, 1);
   opacity: 0.9;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   font-size: 125%;
 }
 
@@ -742,7 +742,7 @@ button {
     width: 50%;
     right: 0px;
   }
-  #nav-tablet-switch{
+  #nav-tablet-switch {
     top: 80px;
     right: 20px;
   }
@@ -785,7 +785,7 @@ button {
     right: 5%;
     top: 650px;
   }
-  .layer-two-text-one h2{
+  .layer-two-text-one h2 {
     position: relative;
     margin-bottom: 50px;
   }
@@ -821,142 +821,147 @@ button {
   .reloading-text-header {
     font-size: 300%;
   }
-  .reloading-text{
+  .reloading-text {
     font-size: 300%;
   }
-    /*SECTION FIVE*/
-    #arrowed-div-two{
-      font-size: 100%;
-    }
-    #arrowed-div-two p{
-      margin-top: 50px;
-    }
-    /*SECTION SIX*/
-    .six-layer {
-      background-image: url("imgs-mobile/section-six.jpg");
-      height: 2000px;
-      background-size: 150% 100%;
-      background-position: center;
-    }
-    .button-container button {
-      position: absolute;
-      width: 50%;
-      height: 75px;
-      margin-left: 25%;
-      font-size: 110%;
-    }
-    .button-one {
-      top: 585px;
-      background-color: #E88C0D;
-    }
-    .button-twoo {
-      top: 1235px;
-      color: orange;
-    }
-    .button-three {
-      top: 1875px;
-      background-color: #E88C0D;
-    }
-    /*SECTION SEVEN*/
-    .just-a-taste ul {
-      margin-left: 0%;
-      list-style-type: square;
-    }
-    .just-a-taste li p {
-      font-size: 18px;
-      color: black;
-    }
-    .taste {
-      height: 700px;
-      background-image: url("imgs-mobile/section-eight.jpg");
-    }
-    .layer-seven-just-a-taste{
-      height: 1600px;
-    }
-    .just-a-taste button {
-      z-index: 2;
-      position: absolute;
-      margin-left: 15%;
-      margin-top: 0;
-      top: 1500px;
-      height: 70px;
-      width: 70%;
-    }
-    /*SECTION EIGHT*/
-    .layer-eight {
-      height: 2600px;
-      background-image: url("imgs-mobile/section-nine.jpg");
-    }
-    .download button {
-      font-size: 120%;
-      border: none;
-      color: orange;
-      z-index: 1;
-      position: absolute;
-      right: 50%;
-      margin-right: -25%;
-      bottom: 0;
-      top: 650px;
-      width: 50%;
-      height: 70px;
-    }
+  /*SECTION FIVE*/
+  #arrowed-div-two {
+    font-size: 100%;
   }
-
-  .download h2 {
-    position: relative;
-    font-size: 300%;
-    top: 100px;
-    color: white;
+  #arrowed-div-two p {
+    margin-top: 50px;
   }
-
-  .download p {
-    margin-left: 2%;
-    margin-right: 2%;
-    position: relative;
-    top: 70px;
-    color: white;
-    font-size: 160%;
+  /*SECTION SIX*/
+  .six-layer {
+    background-image: url("imgs-mobile/section-six.jpg");
+    height: 2000px;
+    background-size: 150% 100%;
+    background-position: center;
   }
-  /*SECTION EIGHT /HALF TWO*/
-  .instagram-feed-rss {
-    display: block;
+  .button-container button {
     position: absolute;
-    width: 80%;
-    top: 400px;
-    left: 5%;
+    width: 50%;
+    height: 75px;
+    margin-left: 25%;
+    font-size: 110%;
   }
-
-  .contact h2 {
-    color: white;
-    transform: scale(1, 1.5);
-    font-size: 150%;
+  .button-one {
+    top: 585px;
+    background-color: #E88C0D;
   }
-
-  .instagram-feed-rss li {
-    position: relative;
-    border-bottom: 2px solid white;
-    color: white;
-    list-style-type: none;
-    transform: scale(1.2, 1);
-    opacity: 0.9;
-    padding-bottom: 1px;
-    padding-top: 20px;
-    font-size: 90%;
+  .button-twoo {
+    top: 1235px;
+    color: orange;
   }
-  .e-mail {
-    top: 730px;
-    left: 10%;
+  .button-three {
+    top: 1875px;
+    background-color: #E88C0D;
+  }
+  /*SECTION SEVEN*/
+  .just-a-taste ul {
+    margin-left: 0%;
+    list-style-type: square;
+  }
+  .just-a-taste li p {
+    font-size: 18px;
+    color: black;
+  }
+  .taste {
+    height: 700px;
+    background-image: url("imgs-mobile/section-eight.jpg");
+  }
+  .layer-seven-just-a-taste {
+    height: 1600px;
+  }
+  .just-a-taste button {
+    z-index: 2;
     position: absolute;
-    width: 80%;
+    margin-left: 15%;
+    margin-top: 0;
+    top: 1500px;
+    height: 70px;
+    width: 70%;
   }
-  .instagram-images {
-    top: 1260px;
-    left: 5%;
-    right: 5%;
-    width: 90%;
+  /*SECTION EIGHT*/
+  .layer-eight {
+    height: 2600px;
+    background-image: url("imgs-mobile/section-nine.jpg");
   }
-  .instagram-images p {
-    position: relative;
-    left: 85px;
+  .download button {
+    font-size: 120%;
+    border: none;
+    color: orange;
+    z-index: 1;
+    position: absolute;
+    right: 50%;
+    margin-right: -25%;
+    bottom: 0;
+    top: 650px;
+    width: 50%;
+    height: 70px;
   }
+
+.download h2 {
+  position: relative;
+  font-size: 300%;
+  top: 100px;
+  color: white;
+}
+
+.download p {
+  margin-left: 2%;
+  margin-right: 2%;
+  position: relative;
+  top: 70px;
+  color: white;
+  font-size: 160%;
+}
+
+/*SECTION EIGHT /HALF TWO*/
+
+.instagram-feed-rss {
+  display: block;
+  position: absolute;
+  width: 80%;
+  top: 400px;
+  left: 20%;
+}
+
+.contact h2 {
+  color: white;
+  transform: scale(1, 1.5);
+  font-size: 150%;
+}
+
+.instagram-feed-rss li {
+  position: relative;
+  border-bottom: 2px solid white;
+  color: white;
+  list-style-type: none;
+  transform: scale(1.2, 1);
+  opacity: 0.9;
+  padding-bottom: 1px;
+  padding-top: 20px;
+  font-size: 90%;
+}
+
+.e-mail {
+  top: 730px;
+  left: 10%;
+  position: absolute;
+  width: 80%;
+}
+
+.instagram-images {
+  top: 1260px;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+}
+
+.instagram-images p {
+  position: relative;
+  left: 85px;
+}
+
 }
