@@ -18,6 +18,7 @@
 }
 
 body {
+  position: absolute;
   margin-top: -50px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -29,7 +30,6 @@ header {
 }
 
 h1 {
-  font-size: 70px;
   transform: scale(1, 2);
 }
 
@@ -762,7 +762,7 @@ button {
     font-size: 75%;
   }
   h1 {
-    font-size: 300%;
+    font-size: 2em;
     transform: scale(1, 2);
   }
   .button-buy-it-now {
@@ -970,9 +970,9 @@ button {
 .instagram-images {
   position: relative;
   top: 1260px;
-  width: 70%;
+  width: 40%;
   left: 0%;
-  margin-left: 5%;
+  margin-left: 0%;
   padding-right: -5%;
 }
 
