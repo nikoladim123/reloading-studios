@@ -1,4 +1,7 @@
-/*.bor {
+/*UNCOMMENT .bor CLASS TO SEE DIV'S POSITIONS*/
+
+/*
+.bor {
   border: 1px solid red;
 }*/
 
@@ -84,7 +87,7 @@ button {
   display: none;
 }
 
-/*FIRST LAYER ,DIV*/
+/*SECTION ONE*/
 
 .shoping-card-img {
   position: relative;
@@ -139,7 +142,7 @@ button {
   border-color: gray;
 }
 
-/*SECOND LAYER,DIV*/
+/*SECTION TWO*/
 
 .Second-Layer {
   position: relative;
@@ -200,7 +203,7 @@ button {
   overflow: hidden;
 }
 
-/*THIRD LAYER*/
+/*SECTION THREE*/
 
 .Third-Layer {
   position: relative;
@@ -214,7 +217,7 @@ button {
   margin-top:
 }
 
-/*FOURTH LAYER DIV*/
+/*SECTION FOUR*/
 
 .fourth-layer-text-one {
   text-align: center;
@@ -231,7 +234,7 @@ button {
   font-size: 2vw;
 }
 
-/*FIFTH LAYER DIV*/
+/*SECTION FIVE*/
 
 .fifth-layer {
   position: relative;
@@ -276,7 +279,7 @@ button {
   box-shadow: none;
 }
 
-/*LAYER SIX*/
+/*SECTION SIX*/
 
 .six-layer {
   position: relative;
@@ -318,7 +321,7 @@ button {
   display: inline-block;
 }
 
-/*LAYER SEVEN*/
+/*SECTION SEVEN*/
 
 .layer-seven-just-a-taste {
   position: relative;
@@ -743,8 +746,8 @@ button {
     right: 0px;
   }
   #nav-tablet-switch {
-    top: 80px;
-    right: 20px;
+    top: 65px;
+    right: 6%;
   }
   .First-Layer {
     background-image: url("imgs-mobile/header-img.jpg");
@@ -924,7 +927,8 @@ button {
   position: absolute;
   width: 80%;
   top: 400px;
-  left: 20%;
+  left: 10%;
+  right: 10%;
 }
 
 .contact h2 {
