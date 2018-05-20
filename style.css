@@ -1,0 +1,962 @@
+/*.bor {
+  border: 1px solid red;
+}*/
+
+.nav-tablet {
+  display: none;
+}
+
+.nav-drop-menu-tablet {
+  display: none;
+}
+
+body {
+  margin: 0;
+  margin-top: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin-top: 20vh;
+  margin-left: 8.5%;
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+  transform: scale(1, 2);
+}
+
+nav {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+nav a {
+  margin-right: 2%;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+input {
+  color: white;
+  font-size: 120%;
+  width: 100%;
+  height: 40px;
+  border-color: white;
+  background: transparent;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 2%;
+}
+
+table {
+  border-spacing: 10px;
+  height: 20vw;
+  width: 100%;
+}
+
+td {
+  border: 1px solid white;
+}
+
+button {
+  box-shadow: 1px 1px #888888;
+}
+
+#nav-tablet-switch {
+  display: none;
+}
+
+#nav-drop-menu-tablet {
+  display: none;
+}
+
+/*FIRST LAYER ,DIV*/
+
+.shoping-card-img {
+  position: relative;
+  background-image: url("imgs/shoping-card.jpg");
+  height: 30px;
+  width: 35px;
+  margin-left: 50px;
+  top: 5px;
+}
+
+.First-Layer {
+  padding-top: 80px;
+  position: relative;
+  background-image: url("imgs/first-layer.jpg");
+  background-size: 100% 100%;
+  height: 1300px;
+}
+
+.button-buy-it-now {
+  margin-top: 5vw;
+  font-size: 24px;
+  background-color: orange;
+  margin-left: 8.5%;
+  height: 6%;
+  width: 13%;
+  color: white;
+  border-color: gray;
+}
+
+.buy-it-text {
+  position: absolute;
+  bottom: 80px;
+  left: 30%;
+  right: 15%;
+  color: white;
+}
+
+.buy-it-text p {
+  transform: scale(0.8, 1);
+  font-size: 130%;
+}
+
+.button-buy-it {
+  position: absolute;
+  font-size: 24px;
+  background-color: #2590B0;
+  height: 6%;
+  width: 13%;
+  color: white;
+  right: 7%;
+  bottom: 80px;
+  border-color: gray;
+}
+
+/*SECOND LAYER,DIV*/
+
+.Second-Layer {
+  position: relative;
+  top: -16px;
+  background-image: url("imgs/Second-Layer.jpg");
+  background-size: 100% 100%;
+  height: 1300px;
+}
+
+.layer-two-text-one {
+  position: absolute;
+  right: 10%;
+  font-size: 1.15vw;
+  top: 150px;
+  left: 50%;
+}
+
+.layer-two-text-one h2 {
+  color: #256088;
+  transform: scale(1, 1.5);
+}
+
+.button-download {
+  position: absolute;
+  font-size: 1.5vw;
+  background-color: orange;
+  height: 70px;
+  width: 18%;
+  color: white;
+  right: 32.5%;
+  top: 500px;
+  border-color: gray;
+  overflow: hidden;
+}
+
+.layer-two-text-two {
+  font-size: 1.15vw;
+  position: absolute;
+  top: 800px;
+  left: 12%;
+  right: 50%;
+}
+
+.layer-two-text-two h2 {
+  transform: scale(1, 1.6);
+  color: #256088;
+}
+
+.button-find-more {
+  position: absolute;
+  font-size: 1.5vw;
+  background-color: orange;
+  height: 80px;
+  width: 40%;
+  color: white;
+  top: 380px;
+  border-color: gray;
+  overflow: hidden;
+}
+
+/*THIRD LAYER*/
+
+.Third-Layer {
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url("imgs/third-layer.jpg");
+  height: 1404px;
+}
+
+.Third-layer-texts {
+  position: relative;
+  margin-top:
+}
+
+/*FOURTH LAYER DIV*/
+
+.fourth-layer-text-one {
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+.reloading-text-header {
+  color: orange;
+  transform: scale(1, 1.6);
+  margin-bottom: 0;
+}
+
+.reloading-text {
+  font-size: 2vw;
+}
+
+/*FIFTH LAYER DIV*/
+
+.fifth-layer {
+  position: relative;
+}
+
+.dynamic-div {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  margin-left: 6%;
+  height: 210px;
+}
+
+.dynamic-div H2 {
+  transform: scale(1, 1.6);
+}
+
+.dynamic-div p {
+  font-size: 120%;
+}
+
+.button-left {
+  border: none;
+  background: url("imgs/left-arrow.jpg");
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 95px;
+  left: -35px;
+  box-shadow: none;
+}
+
+.button-right {
+  border: none;
+  background: url("imgs/right-arrow.jpg");
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 95px;
+  right: -35px;
+  box-shadow: none;
+}
+
+/*LAYER SIX*/
+
+.six-layer {
+  position: relative;
+  background-image: url("imgs/layer-six.jpg");
+  background-size: 100% 100%;
+  height: 1206px;
+}
+
+.button-one {
+  width: 10%;
+  height: 75px;
+  margin-left: 22.5%;
+  background-color: #E88C0D;
+  font-size: 110%;
+  color: white;
+}
+
+.button-twoo {
+  width: 10%;
+  height: 75px;
+  margin-left: 12%;
+  font-size: 110%;
+  color: #E88C0D;
+}
+
+.button-three {
+  width: 10%;
+  height: 75px;
+  margin-left: 12%;
+  background-color: #E88C0D;
+  font-size: 110%;
+  color: white;
+}
+
+.button-container {
+  top: 800px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+/*LAYER SEVEN*/
+
+.layer-seven-just-a-taste {
+  position: relative;
+  min-height: 900px;
+}
+
+.just-a-taste {
+  display: inline-block;
+  height: 100%;
+  width: 48%;
+}
+
+.just-a-taste h2 {
+  margin-bottom: 50px;
+  position: relative;
+  margin-left: 45%;
+  color: #256088;
+  transform: scale(2, 2.5);
+}
+
+.just-a-taste ul {
+  margin-left: 15%;
+  color: #1F5F88;
+  list-style-type: square;
+}
+
+.just-a-taste li {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.just-a-taste li p {
+  font-size: 24px;
+  color: black;
+}
+
+.just-a-taste button {
+  margin-left: 15%;
+  margin-top: 5%;
+  height: 70px;
+  width: 45%;
+  background-color: #E88C0D;
+  font-size: 120%;
+  color: white;
+}
+
+.taste {
+  background-image: url("imgs/layer-seven.jpg");
+  background-size: 100% 100%;
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+}
+
+/*LAYER EIGHT*/
+
+.layer-eight {
+  position: relative;
+  height: 1750px;
+  background-image: url("imgs/layer-eight.jpg");
+  background-size: 100% 100%;
+}
+
+.download {
+  text-align: center;
+  position: relative;
+  height: 30%;
+}
+
+.download h2 {
+  position: relative;
+  font-size: 400%;
+  top: 100px;
+  color: white;
+}
+
+.download p {
+  margin-left: 2%;
+  margin-right: 2%;
+  position: relative;
+  top: 70px;
+  color: white;
+  font-size: 190%;
+}
+
+.download button {
+  font-size: 120%;
+  border: none;
+  color: orange;
+  z-index: 1;
+  position: absolute;
+  right: 18%;
+  bottom: 25px;
+  width: 13%;
+  height: 70px;
+}
+
+/*secund layer eight*/
+
+.contact {
+  position: relative;
+}
+
+.instagram-feed-rss {
+  display: block;
+  position: absolute;
+  width: 25%;
+  top: 450px;
+  left: 5%;
+}
+
+.contact h2 {
+  color: white;
+  transform: scale(1, 1.5);
+  font-size: 200%;
+}
+
+.instagram-feed-rss li {
+  position: relative;
+  border-bottom: 2px solid white;
+  color: white;
+  list-style-type: none;
+  transform: scale(1.2, 1);
+  opacity: 0.9;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 125%;
+}
+
+.instagram-feed-rss li:hover {
+  color: orange;
+  border-bottom-color: orange;
+}
+
+.e-mail {
+  top: 450px;
+  left: 35%;
+  position: absolute;
+  width: 25%;
+}
+
+.e-mail p {
+  position: relative;
+  color: white;
+  transform: scale(1.2, 1);
+  opacity: 0.8;
+  padding-top: 20px;
+  font-size: 125%;
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
+
+.form-button-one {
+  font-size: 120%;
+  background-color: orange;
+  color: white;
+  height: 70px;
+  width: 60%;
+  border-style: none;
+  margin-right: 5%;
+}
+
+.form-button-two {
+  color: white;
+  font-size: 120%;
+  background-color: #1D608A;
+  width: 30%;
+  height: 70px;
+  border-style: none;
+}
+
+.instagram-images {
+  color: white;
+  top: 450px;
+  left: 70%;
+  position: absolute;
+  width: 25%;
+}
+
+.instagram-images p {
+  font-size: 130%;
+}
+
+.insta-img {
+  top: 18px;
+  left: -85px;
+  position: absolute;
+  background-image: url("imgs/instafed-img.jpg");
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.instagram-images button {
+  background-image: url("imgs/instagram-button.jpg");
+  background-size: 100% 100%;
+  height: 70px;
+  width: 100%;
+}
+
+/*MEDIA QUERY FOR TABLET!*/
+
+/*MEDIA QUERY FOR TABLET!*/
+
+/*MEDIA QUERY FOR TABLET!*/
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .First-Layer {
+    background-image: url("imgs-tablet/header-img.jpg");
+    width: 100%;
+  }
+  .button-buy-it-now {
+    width: 25%;
+  }
+  nav {
+    display: none;
+  }
+  #nav-tablet-switch {
+    display: block;
+    color: orange;
+    font-size: 20px;
+    z-index: 3;
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    right: 7%;
+    top: 95px;
+    padding-bottom: 20px;
+    opacity: 0;
+  }
+  #nav-drop-menu-tablet {
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 120vh;
+    top: 50px;
+    color: black;
+    text-align: center;
+    display: none;
+  }
+  #nav-drop-menu-tablet p {
+    font-size: 120%;
+    transform: scale(1, 1.5);
+    text-decoration: none;
+    position: relative;
+    margin-top: 4vh;
+  }
+  #nav-drop-menu-tablet a {
+    text-decoration: none;
+  }
+  #nav-drop-menu-tablet p:hover {
+    text-decoration: underline;
+    color: orange;
+  }
+  .button-buy-it-now {
+    position: relative;
+    top: 5vw;
+  }
+  .buy-it-text {
+    bottom: 110px;
+    left: 20%;
+  }
+  .button-buy-it {
+    bottom: 110px;
+  }
+  /*SECTION TWO*/
+  .Second-Layer {
+    top: 0;
+    height: 2200px;
+    background-image: url("imgs-tablet/section-two.jpg");
+  }
+  .layer-two-text-one {
+    font-size: 130%;
+    left: 10%;
+    right: 10%;
+    top: 670px;
+  }
+  .button-download {
+    right: 0;
+    width: 25%;
+    left: 10%;
+    top: 1060px;
+  }
+  .layer-two-text-two {
+    font-size: 130%;
+    top: 1875px;
+    left: 10%;
+    right: 5%;
+  }
+  .button-find-more {
+    top: 330px;
+    z-index: 1;
+  }
+  /*SECTION THREE*/
+  .Third-Layer {
+    background-image: url("imgs-tablet/section-three.jpg");
+  }
+  /*SECTION FOUR*/
+  .reloading-text-header {
+    font-size: 150%;
+  }
+  #arrowed-div-one {
+    display: none;
+  }
+  #arrowed-div-two {
+    font-size: 120%;
+    width: 50%;
+    margin-left: 25%;
+  }
+  #arrowed-div-three {
+    display: none;
+  }
+  /*SECTION SIX*/
+  .six-layer {
+    background-image: url("imgs-tablet/section-six.jpg");
+    height: 2580px;
+  }
+  .button-container {
+    top: 0;
+    height: 100%;
+  }
+  .button-container button {
+    position: absolute;
+    width: 20%;
+    height: 75px;
+    margin-left: 40%;
+    font-size: 110%;
+  }
+  .button-one {
+    top: 785px;
+    background-color: #E88C0D;
+  }
+  .button-twoo {
+    top: 1565px;
+    color: orange;
+  }
+  .button-three {
+    top: 2300px;
+    background-color: #E88C0D;
+  }
+  /*SECTION SEVEN*/
+  .layer-seven-just-a-taste {
+    height: 2300px;
+  }
+  .just-a-taste {
+    height: 750px;
+    width: 100%;
+  }
+  .just-a-taste button {
+    z-index: 2;
+    position: absolute;
+    margin-left: 27.5%;
+    top: 2100px;
+    height: 70px;
+    width: 45%;
+    background-color: #E88C0D;
+    font-size: 120%;
+    color: white;
+  }
+  .taste {
+    background-image: url("imgs-tablet/section-seven.jpg");
+    width: 100%;
+    height: 1450px;
+  }
+  /*SECTION EIGHT*/
+  .layer-eight {
+    height: 2600px;
+    background-image: url("imgs-tablet/section-eighta.jpg");
+  }
+  .download button {
+    font-size: 120%;
+    border: none;
+    color: orange;
+    z-index: 1;
+    position: absolute;
+    right: 50%;
+    margin-right: -12.5%;
+    bottom: 0;
+    top: 470px;
+    width: 25%;
+    height: 70px;
+  }
+  /*SECTION EIGHT /HALF TWO*/
+  .instagram-feed-rss {
+    width: 50%;
+    top: 290px;
+    left: 25%;
+  }
+  .e-mail {
+    top: 780px;
+    left: 25%;
+    width: 50%;
+  }
+  .instagram-images {
+    top: 1260px;
+    left: 25%;
+    width: 50%;
+  }
+  .instagram-images p {
+    position: relative;
+    left: 85px;
+  }
+  .insta-img {
+    left: 0px;
+  }
+}
+
+/*MEDIA QUERY FOR MOBILE*/
+
+/*MEDIA QUERY FOR MOBILE*/
+
+/*MEDIA QUERY FOR MOBILE*/
+
+@media screen and (max-width: 740px) {
+  #nav-drop-menu-tablet {
+    width: 50%;
+    right: 0px;
+  }
+  #nav-tablet-switch{
+    top: 80px;
+    right: 20px;
+  }
+  .First-Layer {
+    background-image: url("imgs-mobile/header-img.jpg");
+    height: 1015;
+    width: 100%;
+    font-size: 75%;
+  }
+  h1 {
+    font-size: 300%;
+    transform: scale(1, 2);
+  }
+  .button-buy-it-now {
+    width: 50%;
+  }
+  .buy-it-text {
+    bottom: 30px;
+    left: 1%;
+  }
+  .button-buy-it {
+    position: absolute;
+    font-size: 24px;
+    background-color: #2590B0;
+    height: 6%;
+    width: 20%;
+    color: white;
+    right: 1%;
+    bottom: 50px;
+    border-color: gray;
+  }
+  /*SECTION TWO*/
+  .Second-Layer {
+    height: 2200px;
+    background-image: url("imgs-mobile/section-two.jpg");
+  }
+  .layer-two-text-one {
+    font-size: 100%;
+    left: 5%;
+    right: 5%;
+    top: 650px;
+  }
+  .layer-two-text-one h2{
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .button-download {
+    font-size: 110%;
+    right: 0;
+    width: 50%;
+    left: 10%;
+    top: 1150px;
+  }
+  .layer-two-text-two {
+    position: absolute;
+    margin-bottom: 50px;
+    font-size: 100%;
+    top: 1700px;
+    left: 10%;
+    right: 10%;
+  }
+  .button-find-more {
+    width: 50%;
+    font-size: 100%;
+    top: 350px;
+    z-index: 1;
+  }
+  /*SECTION THREE*/
+  .Third-Layer {
+    background-image: url("imgs-mobile/section-three.jpg");
+    height: 1600px;
+    background-size: 130% 100%;
+    background-position: center;
+  }
+  /*SECTION FOUR*/
+  .reloading-text-header {
+    font-size: 300%;
+  }
+  .reloading-text{
+    font-size: 300%;
+  }
+    /*SECTION FIVE*/
+    #arrowed-div-two{
+      font-size: 100%;
+    }
+    #arrowed-div-two p{
+      margin-top: 50px;
+    }
+    /*SECTION SIX*/
+    .six-layer {
+      background-image: url("imgs-mobile/section-six.jpg");
+      height: 2000px;
+      background-size: 150% 100%;
+      background-position: center;
+    }
+    .button-container button {
+      position: absolute;
+      width: 50%;
+      height: 75px;
+      margin-left: 25%;
+      font-size: 110%;
+    }
+    .button-one {
+      top: 585px;
+      background-color: #E88C0D;
+    }
+    .button-twoo {
+      top: 1235px;
+      color: orange;
+    }
+    .button-three {
+      top: 1875px;
+      background-color: #E88C0D;
+    }
+    /*SECTION SEVEN*/
+    .just-a-taste ul {
+      margin-left: 0%;
+      list-style-type: square;
+    }
+    .just-a-taste li p {
+      font-size: 18px;
+      color: black;
+    }
+    .taste {
+      height: 700px;
+      background-image: url("imgs-mobile/section-eight.jpg");
+    }
+    .layer-seven-just-a-taste{
+      height: 1600px;
+    }
+    .just-a-taste button {
+      z-index: 2;
+      position: absolute;
+      margin-left: 15%;
+      margin-top: 0;
+      top: 1500px;
+      height: 70px;
+      width: 70%;
+    }
+    /*SECTION EIGHT*/
+    .layer-eight {
+      height: 2600px;
+      background-image: url("imgs-mobile/section-nine.jpg");
+    }
+    .download button {
+      font-size: 120%;
+      border: none;
+      color: orange;
+      z-index: 1;
+      position: absolute;
+      right: 50%;
+      margin-right: -25%;
+      bottom: 0;
+      top: 650px;
+      width: 50%;
+      height: 70px;
+    }
+  }
+
+  .download h2 {
+    position: relative;
+    font-size: 300%;
+    top: 100px;
+    color: white;
+  }
+
+  .download p {
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    top: 70px;
+    color: white;
+    font-size: 160%;
+  }
+  /*SECTION EIGHT /HALF TWO*/
+  .instagram-feed-rss {
+    display: block;
+    position: absolute;
+    width: 80%;
+    top: 400px;
+    left: 5%;
+  }
+
+  .contact h2 {
+    color: white;
+    transform: scale(1, 1.5);
+    font-size: 150%;
+  }
+
+  .instagram-feed-rss li {
+    position: relative;
+    border-bottom: 2px solid white;
+    color: white;
+    list-style-type: none;
+    transform: scale(1.2, 1);
+    opacity: 0.9;
+    padding-bottom: 1px;
+    padding-top: 20px;
+    font-size: 90%;
+  }
+  .e-mail {
+    top: 730px;
+    left: 10%;
+    position: absolute;
+    width: 80%;
+  }
+  .instagram-images {
+    top: 1260px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+  }
+  .instagram-images p {
+    position: relative;
+    left: 85px;
+  }
+}
