@@ -719,7 +719,7 @@ button {
     width: 30%;
   }
   .just-a-taste button {
-    z-index: 2;
+    z-index: 4;
     position: absolute;
     margin-left: 27.5%;
     top: 2100px;
